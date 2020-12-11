@@ -26,4 +26,13 @@ Line 6 - added type to link tag
 ## 2nd commit
 
 Added descriptive alt attributes to all images in HTML
-<!--Still have yet to add hero image to html. Currently showcased in CSS but I need to add it into html so I can add an alt attribute to it.--!>
+
+## 3rd commit
+
+Consolidated redundant h2 styles under the section named benefits
+
+Consolidated reduntant img styles under content section
+
+Consolidated reduntant article styles under content section
+
+Consolidated reduntant img styles under benefits section
