@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/* Comment goes here */
+/* Styling for header */
 body {
     background-color: #d9dcd6;
     font-size: 16x;
@@ -24,7 +24,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Maybe can consolidate using just nav?*/
+/* Styling for navigation bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,11 +41,12 @@ li {
     display: inline-block;
     margin-left: 25px;
 }
-/**/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Styling for hero image */
 
 .hero {
     height: 800px;
@@ -55,22 +56,42 @@ a {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Styling for content section */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+    /* Styling for article cotent images */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+    /* End styling for article content images */
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Styling for benefits section */
 
 .benefits {
     margin-right: 20px;
@@ -98,24 +119,7 @@ a {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Styling for Footer */
 
 .footer {
     padding: 30px;
@@ -125,5 +129,4 @@ article h2 {
 }
 
 .footer h2 {
-    font-size: 20px;
-}
+    font-size: 20px;}

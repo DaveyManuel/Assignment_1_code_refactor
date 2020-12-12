@@ -56,3 +56,16 @@ Added single quotes to 'Calibri' font family under nav
 Moved font-size style under the body instead of under seperate p selector
 
 Deleted multiple selectors from nav bar because there is only one nav tag, one ul tag, and one li tag in the whole HTML document. Example: .header nav became just nav, .header nav ul became just ul, and .header nav ul li became just li.
+
+## 5th commit
+CSS
+
+Moved content styling ahead of benefits styling to match the flow of our HTML
+
+Moved styling for .content img to both classes .float-left and .float-right because they were describing the same element
+
+Started to comment my stylesheet
+
+HTML
+
+Re-added IDs to the three article elements in the content section because I realized I needed them in order for our anchor tags to function correctly.
