@@ -1,5 +1,11 @@
 # Assignment_1_code_refactor
 
+## User Story
+summary here 
+
+## Link to deployed project
+link
+
 ## 1st commit
 HTML
 
