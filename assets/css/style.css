@@ -3,7 +3,8 @@
     padding: 0;
     margin: 0;
 }
-/* Styling for header */
+/***** Styling for header *****/
+
 body {
     background-color: #d9dcd6;
     font-size: 16x;
@@ -24,7 +25,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Styling for navigation bar */
+/***** Styling for navigation bar *****/
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,7 +48,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/* Styling for hero image */
+/***** Styling for hero image *****/
 
 .hero {
     height: 800px;
@@ -56,27 +58,13 @@ a {
     background-size: cover;
     background-position: center;
 }
-/* Styling for content section */
+/***** Styling for content section *****/
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-    /* Styling for article cotent images */
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-    max-height: 200px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-    max-height: 200px;
-}
-    /* End styling for article content images */
 
 .content article {
     margin-bottom: 20px;
@@ -91,7 +79,20 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Styling for benefits section */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/***** Styling for benefits section *****/
 
 .benefits {
     margin-right: 20px;
@@ -119,7 +120,7 @@ article h2 {
     margin: 10px auto;
     max-width: 150px;
 }
-/* Styling for Footer */
+/***** Styling for Footer *****/
 
 .footer {
     padding: 30px;
@@ -129,4 +130,5 @@ article h2 {
 }
 
 .footer h2 {
-    font-size: 20px;}
+    font-size: 20px;
+}

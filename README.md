@@ -1,7 +1,10 @@
 # Assignment_1_code_refactor
 
 ## User Story
-summary here 
+
+In this assignment I refactored the HTML document so that the codebase follows accessibility standards, and the site is optimized for search engines.
+I also refactored the CSS stylesheet so that it is easily ledgible, follows the flow of our HTML document, and all redundant style tags removed.
+At the end of the assigment the CSS line of code was shortened from 200 to 134.
 
 ## Link to deployed project
 https://daveymanuel.github.io/Assignment_1_code_refactor/
@@ -75,3 +78,9 @@ Started to comment my stylesheet
 HTML
 
 Re-added IDs to the three article elements in the content section because I realized I needed them in order for our anchor tags to function correctly.
+
+## Final commit
+HTML
+
+Shortened description of alt attributes for the images.
+Completed comments for stylesheet
